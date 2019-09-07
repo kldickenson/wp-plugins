@@ -1,0 +1,88 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles for Detail Block
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mic-mic-detail-block .edit-post-visual-editor .block-editor-block-list__block {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mic-container {
+  max-width: 740px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid gray;
+  padding: 0 1rem 1rem; }
+  .wp-block-mic-container h4 {
+    color: gray;
+    font-style: italic; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mic-mic-card {
+  background-color: white !important;
+  border: 2px solid gray !important;
+  color: gray;
+  margin: 0 auto;
+  max-width: 95%;
+  padding: 2rem;
+  height: inherit; }
+  .wp-block-mic-mic-card .card__title textarea {
+    width: 95%; }
+    .wp-block-mic-mic-card .card__title textarea:after {
+      padding-left: 0.5rem;
+      content: url(/wp-content/themes/micbrand/img/arrow-alt-circle-right-solid-sm.svg);
+      width: auto;
+      height: 1rem; }
+  .wp-block-mic-mic-card .url {
+    color: blue;
+    border: 1px solid blue;
+    padding: .25rem;
+    font-size: 85%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mic-mic-card {
+  background: #bada55;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }

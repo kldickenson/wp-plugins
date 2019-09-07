@@ -1,0 +1,32 @@
+/**
+ * #.# Editor Styles for Accordion Block
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.edit-post-visual-editor {
+    .accordion {
+        box-shadow: none;
+        color: #0B111D;
+        margin: 2rem 0;
+    }
+    .heading {
+        font-size: 1.125rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 1rem 1rem 1rem 2rem;
+    }
+    .accordion-wrap {
+        padding: 1rem;
+        background-color: $white;
+        box-shadow: none;
+        color: #0B111D;
+        padding: 2rem;
+        strong {
+            font-weight: 900;
+        }
+        em {
+            font-style: italic;
+        }
+    }
+ }

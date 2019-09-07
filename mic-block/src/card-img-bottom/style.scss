@@ -1,0 +1,29 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-mic-block  {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+
+    .image-bottom {
+    /* margin-left: 2rem;
+    margin-bottom: 2rem; */
+    height: 200px;
+   }
+   .image-bottom h3 {
+      border: none;
+      font-size: 1.125rem;
+   }
+   .image-bottom img {
+      clip-path: polygon(0 0, 20px 0, 40px 20px, 60px 0, 100% 0, 100% 100%, 0 100%);
+      object-fit: contain;
+
+   }
+}

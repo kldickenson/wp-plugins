@@ -1,0 +1,41 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-mic-mic-card  {
+  background-color: white !important;
+  border: 2px solid gray !important;
+  color: gray;
+  margin: 0 auto;
+  max-width: 95%;
+  padding: 2rem;
+  height: inherit;
+
+  // textarea:first-child {
+  //   background: gray;
+  //   color: black;
+  //   border: 1px solid gray;
+  //   padding: .5rem;
+  // }
+  .card__title {
+    textarea {
+      width: 95%;
+      &:after {
+          padding-left: 0.5rem;
+          content: url(/wp-content/themes/micbrand/img/arrow-alt-circle-right-solid-sm.svg);
+          width: auto;
+          height: 1rem;
+      }
+    }
+  }
+  .url {
+    color: blue;
+    border: 1px solid blue;
+    padding: .25rem;
+    font-size: 85%
+  }
+
+}

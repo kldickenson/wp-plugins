@@ -1,0 +1,121 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-mic-mic-detail-block {
+  background-color: #ffffff;
+  border-bottom: 1px solid #edecec;
+  border-left: 1px solid #edecec;
+  border-right: 1px solid #edecec;
+  margin: 2rem 0 2rem; }
+  .wp-block-mic-mic-detail-block details {
+    text-align: left;
+    width: 100%;
+    margin: 1rem 0; }
+  .wp-block-mic-mic-detail-block summary {
+    background-color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    padding: 1rem;
+    position: relative; }
+    .wp-block-mic-mic-detail-block summary::-webkit-details-marker {
+      display: none; }
+    .wp-block-mic-mic-detail-block summary::after {
+      content: url(//wp-content/themes/micbrand/img/add-solid.svg);
+      float: right;
+      padding-left: 1rem;
+      width: 1.25rem;
+      height: auto; }
+  .wp-block-mic-mic-detail-block p {
+    margin: 1rem 2rem 1rem; }
+  .wp-block-mic-mic-detail-block ul {
+    margin: 0 2rem 1rem; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-mic-mic-card {
+  margin-bottom: 4rem;
+  height: 250px; }
+  .wp-block-mic-mic-card h3 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    .wp-block-mic-mic-card h3:after {
+      padding-left: 0.5rem;
+      content: url(/wp-content/themes/micbrand/img/arrow-alt-circle-right-solid-sm.svg);
+      width: auto;
+      height: 1rem; }
+  .wp-block-mic-mic-card p:after {
+    padding-left: 0.5rem;
+    content: ">";
+    color: #024794;
+    font-weight: 700; }
+  .wp-block-mic-mic-card p a {
+    text-decoration: none;
+    color: black; }
+    .wp-block-mic-mic-card p a:hover {
+      text-decoration: none; }
+  .wp-block-mic-mic-card img {
+    margin: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 50px, 20px 30px, 0 10px);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 50px, 20px 30px, 0 10px);
+    -o-object-fit: cover;
+       object-fit: cover; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-mic-block {
+  background: orangered;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem; }
+  .wp-block-cgb-block-mic-block .image-bottom {
+    /* margin-left: 2rem;
+    margin-bottom: 2rem; */
+    height: 200px; }
+  .wp-block-cgb-block-mic-block .image-bottom h3 {
+    border: none;
+    font-size: 1.125rem; }
+  .wp-block-cgb-block-mic-block .image-bottom img {
+    -webkit-clip-path: polygon(0 0, 20px 0, 40px 20px, 60px 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 20px 0, 40px 20px, 60px 0, 100% 0, 100% 100%, 0 100%);
+    -o-object-fit: contain;
+       object-fit: contain; }

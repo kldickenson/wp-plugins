@@ -1,0 +1,14 @@
+/**
+ * #.# Editor Styles for Accordion Block
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+ .accordion-content {
+    display: block !important;
+	padding: 1rem;
+	border: 1px solid #e6e6e6;
+	border-bottom: 0;
+	background-color: #fefefe;
+	color: #0a0a0a;
+}

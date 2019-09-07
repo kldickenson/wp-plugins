@@ -1,0 +1,22 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+
+.wp-block-mic-container {
+  max-width: 740px;
+   margin: 0 auto;
+  background: rgba(0,0,0,.1);
+   border: 1px solid gray;
+   padding: 0 1rem 1rem;
+
+   h4 {
+      color: gray;
+      font-style: italic;
+
+   }
+
+}

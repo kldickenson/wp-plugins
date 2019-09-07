@@ -1,0 +1,58 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+$summary-color:  #000;
+$summary-background-color: #bdbdbd;
+$summary-font-size: 1.25rem;
+$content-background-color: #ffffff;
+$content-border-color: #edecec;
+
+.wp-block-mic-mic-detail-block {
+	background-color: $content-background-color;
+	border-bottom: 1px solid $content-border-color;
+	border-left: 1px solid $content-border-color;
+	border-right: 1px solid $content-border-color;
+	// border-radius: 3px;
+	// margin-bottom: 3rem;
+	margin: 2rem 0 2rem;
+
+	details {
+		text-align: left;
+      width: 100%;
+      margin: 1rem 0;
+	}
+	summary {
+		background-color: $summary-background-color;
+		border: 1px solid $summary-background-color;
+		color: $summary-color;
+		font-size: $summary-font-size;
+		font-weight: 700;
+		line-height: 1;
+      text-transform: uppercase;
+		padding: 1rem;
+		position: relative;
+
+		&::-webkit-details-marker {
+			display: none;
+		}
+
+		&::after {
+			content: url(//wp-content/themes/micbrand/img/add-solid.svg);
+			float: right;
+			padding-left: 1rem;
+			width: 1.25rem;
+			height: auto;
+   	}
+	}
+
+	p  {
+		margin:1rem 2rem 1rem;
+	}
+	ul {
+		margin: 0 2rem 1rem;
+	}
+
+}

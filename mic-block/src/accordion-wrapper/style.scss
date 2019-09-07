@@ -1,0 +1,57 @@
+.accordion {
+	margin-left: 0;
+	// background: #fefefe;
+	list-style-type: none;
+}
+.accordion[disabled] .accordion-title {
+	cursor: not-allowed;
+}
+
+// .accordion-item:first-child > :first-child {
+// 	border-radius: 3px 3px 0 0;
+// }
+
+// .accordion-item:last-child > :last-child {
+// 	border-radius: 0 0 3px 3px;
+// }
+
+.accordion-title {
+	position: relative;
+	display: block;
+	padding: 1.25rem 1rem;
+	// border: 1px solid #e6e6e6;
+	// border-bottom: 0;
+	// font-size: 0.75rem;
+	line-height: 1;
+	// color: #2ba6cb;
+}
+:last-child:not(.is-active) > .accordion-title {
+	// border-bottom: 1px solid #e6e6e6;
+	// border-radius: 0 0 3px 3px;
+}
+// .accordion-title:hover,
+// .accordion-title:focus {
+// 	background-color: #e6e6e6;
+// }
+// .accordion-title::before {
+// 	position: absolute;
+// 	top: 50%;
+// 	right: 1rem;
+// 	margin-top: -0.5rem;
+// 	content: "+";
+// }
+// .is-active > .accordion-title::before {
+// 	content: "\2013";
+// }
+
+.accordion-content {
+	display: none;
+	padding: 1rem;
+	border: 1px solid #e6e6e6;
+	border-bottom: 0;
+	background-color: #fefefe;
+	color: #0a0a0a;
+}
+:last-child > .accordion-content:last-child {
+	border-bottom: 1px solid #e6e6e6;
+}

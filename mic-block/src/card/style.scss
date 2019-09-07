@@ -1,0 +1,43 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-mic-mic-card  {
+  margin-bottom: 4rem;
+  height: 250px;
+
+  h3 {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    &:after {
+      padding-left: 0.5rem;
+      content: url(/wp-content/themes/micbrand/img/arrow-alt-circle-right-solid-sm.svg);
+      width: auto;
+      height: 1rem;
+    }
+  }
+  p:after {
+    padding-left: 0.5rem;
+    content: ">";
+    color: #024794;
+    font-weight: 700;
+  }
+  p {
+      a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+          text-decoration: none;
+        }
+    }
+  }
+
+    img {
+      // width: 100%;
+      margin: 0;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 50px, 20px 30px, 0 10px);
+      object-fit: cover;
+    }
+}
